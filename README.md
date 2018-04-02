@@ -41,12 +41,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## 开发进度
 ``` bash
-20180125-20180126
-基于 axios 的封装请求，和服务端进行交互
-components/views：碎片组件
-mint-ui：Indicator(加载提示框)、MessageBox(弹出式提示框)
-前端跨域(devServer.proxy)
-
-20180127-20180128
-引入vuex管理状态，如用户是否登录
 ```
