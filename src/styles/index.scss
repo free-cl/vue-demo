@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+	color: #333;
+	font-family: "Lucida Sans", "PingFangSC-Regular", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+input {
+	font-size: 15px;
+}
+input,button,textarea {
+	outline: 0;
+	border: 0;
+	font-family: "Lucida Sans", "PingFangSC-Regular", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+button{
+	background: none;
+	font-size: 16px;
+}
+textarea{
+	font-size: 15px;
+	resize: none;
+}
+
+// mint-ui样式覆盖
+// 加载提示框
+.mint-indicator-mask {
+	z-index: 1999;
+}
+.mint-indicator-wrapper {
+	z-index: 2000;
+}
+// 下拉/上拉刷新
+.mint-loadmore-content {
+	.mint-loadmore-bottom {
+		height: 30px;
+		line-height: 30px;
+	}
+}
