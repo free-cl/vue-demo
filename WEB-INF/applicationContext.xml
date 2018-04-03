@@ -14,14 +14,10 @@
 	<import resource="classpath:config/serviceConfig.xml" />
 	<import resource="classpath:config/http/view.xml" />
 	<import resource="classpath:config/http/urlResolver.xml" />
-
 	<import resource="classpath:config/core/action.xml" />
 	<import resource="classpath:config/trs/common.xml" />
-	<import resource="classpath:config/trs/poster.xml" />
 	<import resource="classpath:config/trs/wechat.xml" />
-	<import resource="classpath:config/trs/goldredpackage.xml" />
-
 	<import resource="classpath:config/aas/aas.xml" />
 	<import resource="classpath:config/service/validator.xml" />
-	
+	<import resource="classpath:config/trs/test.xml" />
 </beans>
